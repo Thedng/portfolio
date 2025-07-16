@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link <link rel="stylesheet" href="style.css" />
+    <title>responsive portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav-container">
+        <a href="index.html">pspss</a>
+        <button class="nav-btn">
+          <i class="uil uil-moon"></i>
+        </button>
+      </div>
+    </nav>
+
+    <menu class="floating-nav">
+      <a href="#" class="active"><i class="uil uil-estate"></i></a>
+      <a href="#resume"><i class="uil uil-user"></i></a>
+      <a href="#projects"><i class="uil uil-image"></i></a>
+      <a href="#faqs"><i class="uil uil-smile-dizzy"></i></a>
+      <a href="#contact"><i class="uil uil-phone"></i></a>
+    </menu>
+
+    <header>
+      <div class="header-container">
+        <div class="header-img">
+          <img
+            src="assets/photo_2024-04-30_01-07-23.jpg"
+            alt="header image"
+            data-aos="fade-up"
+            data-aos-delay="800"
+          />
+        </div>
+        <h5 data-aos="fade-in">Hi im pspss</h5>
+        <h1 data-aos="fade-in">Fullstack <span>Web Developer</span></h1>
+        <p data-aos="fade-in">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+          assumenda debitis ratione qui dolor laborum deleniti repudiandae error
+          dignissimos, reprehenderit tempora ullam dolore harum rerum odio fugit
+          voluptas voluptatibus? Impedit.
+        </p>
+        <div class="header-cta" data-aos="fade-in">
+          <a href="#projects" class="btn">My projects</a>
+          <a href="#contact" class="btn btn-primary">Contact me</a>
+        </div>
+        <div class="header-socials">
+          <a href=""><i class="uil uil-github-alt"></i></a>
+          <a href=""><i class="uil uil-facebook-f"></i></a>
+          <a href=""><i class="uil uil-dribbble"></i></a>
+          <a href=""><i class="uil uil-linkedin-alt"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section id="resume">
+      <div
+        class="container resume-container"
+        data-aos="fade-in"
+        data-aos-delay="200"
+      >
+        <div class="resume-left">
+          <h2>why me?</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <menu>
+            <button class="btn btn-primary exp-btn">experience</button>
+            <button class="btn edu-btn">education</button>
+            <button class="btn ski-btn">skills</button>
+            <button class="btn abo-btn">about me</button>
+          </menu>
+        </div>
+
+        <div class="resume-right">
+          <h4>Experience</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <ul>
+            <li>
+              <h6>2020 - 2022</h6>
+              <h5>felan</h5>
+              <p>game company</p>
+            </li>
+            <li>
+              <h6>2022 - 2024</h6>
+              <h5>pspss</h5>
+              <p>mobile company</p>
+            </li>
+            <li>
+              <h6>2024 - 2025</h6>
+              <h5>elmos</h5>
+              <p>koskhol company</p>
+            </li>
+            <li>
+              <h6>2024 - 2025</h6>
+              <h5>elmos</h5>
+              <p>koskhol company</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>recent project</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <menu class="project-category">
+        <button class="btn" data-filter="*">All</button>
+        <button class="btn" data-filter=".frontend">frontend</button>
+        <button class="btn" data-filter=".backend">backend</button>
+        <button class="btn" data-filter=".Fullstack">Fullstack</button>
+      </menu>
+      <div
+        class="container project-container"
+        data-aos="fade-in"
+        data-aos-delay="200"
+      >
+        <article class="project mix Fullstack" data-order="1">
+          <div class="project-image">
+            <img src="assets/project1.jpg" alt="" />
+          </div>
+          <h5>project 1 title</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            rem commodi temporibus libero sunt quisquam!
+          </p>
+          <div class="project-cta">
+            <a href="" class="btn btn-primary"><i class="uil uil-link"></i></a>
+            <a href="" class="btn btn-primary"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <article class="project mix frontend" data-order="2">
+          <div class="project-image">
+            <img src="assets/project2.jpg" alt="" />
+          </div>
+          <h5>project 1 title</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            rem commodi temporibus libero sunt quisquam!
+          </p>
+          <div class="project-cta">
+            <a href="" class="btn btn-primary"><i class="uil uil-link"></i></a>
+            <a href="" class="btn btn-primary"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <article class="project mix Fullstack" data-order="3">
+          <div class="project-image">
+            <img src="assets/project3.jpg" alt="" />
+          </div>
+          <h5>project 1 title</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            rem commodi temporibus libero sunt quisquam!
+          </p>
+          <div class="project-cta">
+            <a href="" class="btn btn-primary"><i class="uil uil-link"></i></a>
+            <a href="" class="btn btn-primary"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <article class="project mix frontend" data-order="4">
+          <div class="project-image">
+            <img src="assets/project4.jpg" alt="" />
+          </div>
+          <h5>project 1 title</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            rem commodi temporibus libero sunt quisquam!
+          </p>
+          <div class="project-cta">
+            <a href="" class="btn btn-primary"><i class="uil uil-link"></i></a>
+            <a href="" class="btn btn-primary"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <article class="project mix Fullstack" data-order="5">
+          <div class="project-image">
+            <img src="assets/project5.jpg" alt="" />
+          </div>
+          <h5>project 1 title</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            rem commodi temporibus libero sunt quisquam!
+          </p>
+          <div class="project-cta">
+            <a href="" class="btn btn-primary"><i class="uil uil-link"></i></a>
+            <a href="" class="btn btn-primary"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <article class="project mix backend" data-order="6">
+          <div class="project-image">
+            <img src="assets/project6.jpg" alt="" />
+          </div>
+          <h5>project 1 title</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            rem commodi temporibus libero sunt quisquam!
+          </p>
+          <div class="project-cta">
+            <a href="" class="btn btn-primary"><i class="uil uil-link"></i></a>
+            <a href="" class="btn btn-primary"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="swiper">
+      <h2>what my clients say</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsum
+        fugiat, labore eum repellendus earum!
+      </p>
+      <div class="swiper container">
+        <div class="swiper-wrapper">
+          <figure class="swiper-slide">
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              reprehenderit provident ex ab autem numquam aspernatur
+              voluptatibus! Consectetur, natus maiores!
+            </figcaption>
+            <div class="swiper-client">
+              <div class="swiper-client-av">
+                <img src="assets/avatar1.jpg" alt="clinet 1" />
+              </div>
+              <div class="client-details">
+                <h5>nana ama</h5>
+                <small>actress</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              reprehenderit provident ex ab autem numquam aspernatur
+              voluptatibus! Consectetur, natus maiores!
+            </figcaption>
+            <div class="swiper-client">
+              <div class="swiper-client-av">
+                <img src="assets/avatar1.jpg" alt="clinet 1" />
+              </div>
+              <div class="client-details">
+                <h5>nana ama</h5>
+                <small>actress</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              reprehenderit provident ex ab autem numquam aspernatur
+              voluptatibus! Consectetur, natus maiores!
+            </figcaption>
+            <div class="swiper-client">
+              <div class="swiper-client-av">
+                <img src="assets/avatar1.jpg" alt="clinet 1" />
+              </div>
+              <div class="client-details">
+                <h5>nana ama</h5>
+                <small>actress</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              reprehenderit provident ex ab autem numquam aspernatur
+              voluptatibus! Consectetur, natus maiores!
+            </figcaption>
+            <div class="swiper-client">
+              <div class="swiper-client-av">
+                <img src="assets/avatar1.jpg" alt="clinet 1" />
+              </div>
+              <div class="client-details">
+                <h5>nana ama</h5>
+                <small>actress</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              reprehenderit provident ex ab autem numquam aspernatur
+              voluptatibus! Consectetur, natus maiores!
+            </figcaption>
+            <div class="swiper-client">
+              <div class="swiper-client-av">
+                <img src="assets/avatar1.jpg" alt="clinet 1" />
+              </div>
+              <div class="client-details">
+                <h5>nana ama</h5>
+                <small>actress</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              reprehenderit provident ex ab autem numquam aspernatur
+              voluptatibus! Consectetur, natus maiores!
+            </figcaption>
+            <div class="swiper-client">
+              <div class="swiper-client-av">
+                <img src="assets/avatar1.jpg" alt="clinet 1" />
+              </div>
+              <div class="client-details">
+                <h5>nana ama</h5>
+                <small>actress</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              reprehenderit provident ex ab autem numquam aspernatur
+              voluptatibus! Consectetur, natus maiores!
+            </figcaption>
+            <div class="swiper-client">
+              <div class="swiper-client-av">
+                <img src="assets/avatar1.jpg" alt="clinet 1" />
+              </div>
+              <div class="client-details">
+                <h5>nana ama</h5>
+                <small>actress</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              reprehenderit provident ex ab autem numquam aspernatur
+              voluptatibus! Consectetur, natus maiores!
+            </figcaption>
+            <div class="swiper-client">
+              <div class="swiper-client-av">
+                <img src="assets/avatar1.jpg" alt="clinet 1" />
+              </div>
+              <div class="client-details">
+                <h5>nana ama</h5>
+                <small>actress</small>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="faqs">
+      <h2>faqs</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, atque.
+      </p>
+      <menu class="container faqs-container">
+        <li class="faqs-item" data-aos="fade-in" data-aos-delay="200">
+          <div class="faqs-top">
+            <span class="faqs-icon"><i class="uil uil-angle-down"></i></span>
+            <h5>what is your hourly rate?</h5>
+          </div>
+          <div class="faqs-bottom">
+            <span></span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur nam itaque repudiandae iusto amet saepe, dolores
+              voluptates culpa qui, sequi in cumque doloribus corrupti
+              consequuntur eveniet, velit mollitia neque minima.
+            </p>
+          </div>
+        </li>
+        <li class="faqs-item" data-aos="fade-in" data-aos-delay="200">
+          <div class="faqs-top">
+            <span class="faqs-icon"><i class="uil uil-angle-down"></i></span>
+            <h5>what is your hourly rate?</h5>
+          </div>
+          <div class="faqs-bottom">
+            <span></span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur nam itaque repudiandae iusto amet saepe, dolores
+              voluptates culpa qui, sequi in cumque doloribus corrupti
+              consequuntur eveniet, velit mollitia neque minima.
+            </p>
+          </div>
+        </li>
+        <li class="faqs-item" data-aos="fade-in" data-aos-delay="400">
+          <div class="faqs-top">
+            <span class="faqs-icon"><i class="uil uil-angle-down"></i></span>
+            <h5>what is your hourly rate?</h5>
+          </div>
+          <div class="faqs-bottom">
+            <span></span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur nam itaque repudiandae iusto amet saepe, dolores
+              voluptates culpa qui, sequi in cumque doloribus corrupti
+              consequuntur eveniet, velit mollitia neque minima.
+            </p>
+          </div>
+        </li>
+        <li class="faqs-item" data-aos="fade-in" data-aos-delay="400">
+          <div class="faqs-top">
+            <span class="faqs-icon"><i class="uil uil-angle-down"></i></span>
+            <h5>what is your hourly rate?</h5>
+          </div>
+          <div class="faqs-bottom">
+            <span></span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur nam itaque repudiandae iusto amet saepe, dolores
+              voluptates culpa qui, sequi in cumque doloribus corrupti
+              consequuntur eveniet, velit mollitia neque minima.
+            </p>
+          </div>
+        </li>
+        <li class="faqs-item" data-aos="fade-in" data-aos-delay="600">
+          <div class="faqs-top">
+            <span class="faqs-icon"><i class="uil uil-angle-down"></i></span>
+            <h5>what is your hourly rate?</h5>
+          </div>
+          <div class="faqs-bottom">
+            <span></span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur nam itaque repudiandae iusto amet saepe, dolores
+              voluptates culpa qui, sequi in cumque doloribus corrupti
+              consequuntur eveniet, velit mollitia neque minima.
+            </p>
+          </div>
+        </li>
+        <li class="faqs-item" data-aos="fade-in" data-aos-delay="600">
+          <div class="faqs-top">
+            <span class="faqs-icon"><i class="uil uil-angle-down"></i></span>
+            <h5>what is your hourly rate?</h5>
+          </div>
+          <div class="faqs-bottom">
+            <span></span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur nam itaque repudiandae iusto amet saepe, dolores
+              voluptates culpa qui, sequi in cumque doloribus corrupti
+              consequuntur eveniet, velit mollitia neque minima.
+            </p>
+          </div>
+        </li>
+      </menu>
+    </section>
+
+    <section id="contact">
+      <div class="container contact-container">
+        <menu class="contact-options">
+          <a href="" class="contact-option" target="_blank"
+            ><i class="uil uil-envelope"></i
+          ></a>
+          <a href="" class="contact-option" target="_blank"
+            ><i class="uil uil-facebook-messenger-alt"></i
+          ></a>
+          <a href="" class="contact-option" target="_blank"
+            ><i class="uil uil-whatsapp"></i
+          ></a>
+          <a href="" class="contact-option" target="_blank"
+            ><i class="uil uil-phone"></i
+          ></a>
+        </menu>
+        <form action="" data-aos="fade-up">
+          <input type="text" name="Name" placeholder="Fullname" />
+          <input type="email" name="Email" placeholder="Email" />
+          <textarea name="Massage" rows="7" placeholder="Massage"></textarea>
+          <button type="submit" class="btn btn-primary">send</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="mix/dist/mixitup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 2000, offset: 80 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
